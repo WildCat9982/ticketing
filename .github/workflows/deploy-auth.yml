@@ -17,5 +17,5 @@ jobs:
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-      - run: dokecker push chekeong82/auth
+      - run: docker push chekeong82/auth
       
